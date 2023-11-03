@@ -25,9 +25,9 @@ namespace GithubActionsLab
         [Test]
         public void Add_Null()
         {
-            Assert.Throws<ArgumentNullException>(() => Program.Subtract("1", null));
-            Assert.Throws<ArgumentNullException>(() => Program.Subtract(null, "1"));
-            Assert.Throws<ArgumentNullException>(() => Program.Subtract(null, null));
+            Assert.Throws<ArgumentNullException>(() => Program.Add("1", null));
+            Assert.Throws<ArgumentNullException>(() => Program.Add(null, "1"));
+            Assert.Throws<ArgumentNullException>(() => Program.Add(null, null));
         }
        [Test]
         public void Sub_Valid()
